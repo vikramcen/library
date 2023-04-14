@@ -1,5 +1,5 @@
 import BookItem from '@components/BookItem/BookItem';
-import SliderImage from '@images/slider/library-image.jpg';
+import SliderImage from '@images/slider/libimg.jpg';
 import useHome from './useHome';
 
 const Home = () => {
@@ -19,8 +19,7 @@ const Home = () => {
           <div className="section-title text-center mb-50">
             <h2>Top interesting</h2>
             <p>
-              Browse the collection of our best selling and top interresting products. <br /> ll
-              definitely find what you are looking for..
+              Browse the collection of our best selling and top rated books. <br /> 
             </p>
           </div>
           <div className="grid grid-cols-5 gap-4 mb-3">

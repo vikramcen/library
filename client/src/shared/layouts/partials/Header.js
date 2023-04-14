@@ -1,5 +1,6 @@
 import { ROOT_PAGE_URL } from '@constants/navigator';
-import Logo from '@images/logo.svg';
+import mainLogo from './logo1.png';
+//import mainLogo from '@images/logo1.png';
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { ReactSVG } from 'react-svg';
@@ -47,7 +48,7 @@ const Header = () => {
             <div className="col-lg-6 col-md-4 col-12">
               <div className="logo-area text-center logo-xs-mrg flex items-center justify-center">
                 <Link to={'/'}>
-                  <ReactSVG src={Logo} />
+                  <img src={mainLogo} />
                 </Link>
               </div>
             </div>

@@ -41,7 +41,7 @@ const DashboardLayout = () => {
         icon: 'fa fa-credit-card',
       },
       isAdmin && {
-        name: 'Contact Us Enquiries',
+        name: 'Contact Us',
         url: ROOT_PAGE_URL.CONTACTUS,
         icon: 'fa fa-envelope',
       },

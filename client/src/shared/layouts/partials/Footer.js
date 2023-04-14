@@ -109,10 +109,7 @@ const Footer = () => {
               <div className="col-lg-6 col-md-6 col-12">
                 <div className="copy-right-area">
                   <p>
-                    © 2022 <strong> Library </strong> Mede with ❤️ by{' '}
-                    <a href="https://hasthemes.com/" target="_blank">
-                      <strong>Devigners</strong>
-                    </a>
+                    © 2023 <strong> Library </strong> 
                   </p>
                 </div>
               </div>

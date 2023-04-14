@@ -18,9 +18,9 @@ const Login = () => {
               <div className="login-title text-center mb-30">
                 <h2>Login</h2>
                 <p>
-                  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+                  Please sign in with your email id and password.  
                   <br />
-                  inventore veritatis et quasi architecto beat
+                  If you do not have an account with us, please do register.
                 </p>
               </div>
             </div>

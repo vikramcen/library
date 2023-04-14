@@ -19,7 +19,7 @@ const ContactUs = () => {
                     <li>
                       <i className="fa fa-map-marker" />
                       <span>Address: </span>
-                      Your address goes here.
+                      Toronto, Ontario
                     </li>
                     <li>
                       <i className="fa fa-envelope" />

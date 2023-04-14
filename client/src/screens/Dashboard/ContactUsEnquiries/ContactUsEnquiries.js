@@ -6,7 +6,7 @@ const ContactUsEnquiries = () => {
   const { data } = useContactUsEnquiries();
 
   return (
-    <DashboardContentWrapper title={'Contact Us Enquiries'}>
+    <DashboardContentWrapper title={'Contact Us'}>
       <div className="myaccount-table table-responsive text-center">
         <table className="table table-bordered text-left">
           <thead className="thead-light">
