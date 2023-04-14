@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "baseUrl": "src",
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@assets/*": ["./assets/*"],
+      "@images/*": ["./assets/images/*"],
+      "@styles/*": ["./assets/styles/*"],
+      "@fonts/*": ["./assets/fonts/*"],
+      "@locale/*": ["./assets/locale/*"],
+
+      "@apis/*": ["./shared/apis/*"],
+      "@components/*": ["./shared/components/*"],
+      "@constants/*": ["./shared/constants/*"],
+      "@hooks/*": ["./shared/hooks/*"],
+      "@layouts/*": ["./shared/layouts/*"],
+      "@middlewares/*": ["./shared/middlewares/*"],
+      "@tstypes/*": ["./shared/types/*"],
+      "@routes/*": ["./shared/routes/*"],
+      "@utils/*": ["./shared/utils/*"],
+      "@themes/*": ["./shared/themes/*"],
+
+      "@store/*": ["./store/*"],
+      "@slices/*": ["./store/slices/*"],
+
+      "@screens/*": ["./screens/*"]
+    }
+  },
+  "include": ["src", "craco.config.js", "public/js"]
+}
