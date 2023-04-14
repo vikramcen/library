@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterBar component matches snapshot DOM node structure 1`] = `
+<DocumentFragment>
+  <div
+    class="d-flex justify-content-center align-items-center"
+  >
+    <div
+      class="search-container d-flex justify-content-center flex-column p-2 p-lg-4"
+    >
+      <form
+        class="d-flex p-md-3 p-lg-0 "
+      >
+        <div
+          class="input-container d-flex"
+        >
+          <input
+            aria-label="Search"
+            class="form-control mr-sm-2 impForm"
+            name="search"
+            placeholder="Filter keywords"
+            type="search"
+          />
+        </div>
+      </form>
+    </div>
+    <div>
+      <select
+        class="form-control"
+        id="formBasicSelect"
+      >
+        <option
+          value=""
+        >
+          Select Genre
+        </option>
+        <option
+          value="fiction"
+        >
+          Fiction
+        </option>
+        <option
+          value="Biography"
+        >
+          Biography
+        </option>
+        <option
+          value="Children"
+        >
+          Children
+        </option>
+      </select>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Nav component matches snapshot DOM node structure 1`] = `
+<DocumentFragment>
+  <div
+    class="d-flex justify-content-center align-items-center"
+  >
+    <div
+      class="search-container d-flex justify-content-center flex-column p-2 p-lg-4"
+    >
+      <form
+        class="d-flex p-md-3 p-lg-0 "
+      >
+        <div
+          class="input-container d-flex"
+        >
+          <input
+            aria-label="Search"
+            class="form-control mr-sm-2 impForm"
+            name="search"
+            placeholder="Filter keywords"
+            type="search"
+          />
+        </div>
+      </form>
+    </div>
+    <div>
+      <select
+        class="form-control"
+        id="formBasicSelect"
+      >
+        <option
+          value=""
+        >
+          Select Genre
+        </option>
+        <option
+          value="fiction"
+        >
+          Fiction
+        </option>
+        <option
+          value="Biography"
+        >
+          Biography
+        </option>
+        <option
+          value="Children"
+        >
+          Children
+        </option>
+      </select>
+    </div>
+  </div>
+</DocumentFragment>
+`;
